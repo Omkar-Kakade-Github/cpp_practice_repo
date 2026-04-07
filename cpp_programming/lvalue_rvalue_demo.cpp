@@ -123,7 +123,6 @@ void move_semantics_demo() {
 // KEY INSIGHT:
 // rvalue references exist mainly to enable MOVE SEMANTICS —
 // stealing resources from temporaries instead of copying them.
-// This is critical in HPC where copying large data is expensive.
 // ============================================================
 
 
